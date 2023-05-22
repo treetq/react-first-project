@@ -6,6 +6,7 @@ import FullName from "./Components/Profile/FullName";
 function App() {
   return (
     <div className="app">
+      {/* put those components inside the app component */}
       <ProfilePhoto />
       <FullName />
       <Adress />
